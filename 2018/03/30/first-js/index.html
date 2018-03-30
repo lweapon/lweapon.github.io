@@ -9,7 +9,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
-    <title>blog · fi3ework&#39;s Studio</title>
+    <title>first-js · fi3ework&#39;s Studio</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -191,7 +191,7 @@
                 <a href="/" >fi3ework&#39;s Studio.</a>
             </div>
             <div class="post-title">
-                <a href="#" class="post-name">blog</a>
+                <a href="#" class="post-name">first-js</a>
             </div>
     </div>
     
@@ -223,7 +223,7 @@ height:50vh;
         <h1 class="intro-title">
             <!-- 主页  -->
             
-            blog
+            first-js
             <!-- 404 -->
             
         </h1>
@@ -241,7 +241,7 @@ height:50vh;
             
             <div class="post-intro-meta">
                 <span class="post-intro-calander iconfont-archer">&#xe676;</span>
-                <span class="post-intro-time">2018/03/29</span>
+                <span class="post-intro-time">2018/03/30</span>
                 
                 <span id="busuanzi_container_page_pv" class="busuanzi-pv">
                     <span class="iconfont-archer">&#xe602;</span>
@@ -347,43 +347,95 @@ height:50vh;
         <div class="container container-unloaded">
             <main class="main post-page">
     <article class="article-entry">
-        <h2 id="hexo-介绍"><a href="#hexo-介绍" class="headerlink" title="hexo 介绍"></a>hexo 介绍</h2><blockquote>
-<p>简单的快速的markdown博客框架，能够通过markdown语法快速生成页面</p>
+        <h1 id="打卡第二天"><a href="#打卡第二天" class="headerlink" title="打卡第二天"></a>打卡第二天</h1><h1 id="js-第一天"><a href="#js-第一天" class="headerlink" title="js 第一天"></a>js 第一天</h1><h2 id="面试会考"><a href="#面试会考" class="headerlink" title="面试会考"></a>面试会考</h2><blockquote>
+<p>请说出js的基本类型有哪些?</p>
 </blockquote>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ul>
-<li>前提： node.js、 git</li>
-<li>node.js  是javascript在本地的一个运行环境。</li>
-</ul>
-<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ul>
-<li><p>安装cli</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//npm  node package  manager</span><br><span class="line">// -g </span><br><span class="line">// cli一般指可以通过命令行的库</span><br><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>hexo初始化</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">//找到文件夹  </span><br><span class="line">// 通过hexo的命令 在本地创建blog代码框架</span><br><span class="line">hexo init   &lt;filename&gt;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>启动服务预览</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">// 可以在本地启动服务预览</span><br><span class="line">// localhost:4000</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>更换皮肤</p>
-</li>
-</ul>
+<h2 id="1-js一共有五种类型分别是"><a href="#1-js一共有五种类型分别是" class="headerlink" title="1.js一共有五种类型分别是:"></a>1.js一共有五种类型分别是:</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">number类型</span><br><span class="line">string类型</span><br><span class="line">Boolean类型</span><br><span class="line">undefined类型</span><br><span class="line">null类型</span><br><span class="line">js是弱类型任何情况只需要采用var表示即可!</span><br></pre></td></tr></table></figure>
+<h2 id="js的引用方式有两种"><a href="#js的引用方式有两种" class="headerlink" title="js的引用方式有两种"></a>js的引用方式有两种</h2><blockquote>
+<p>内嵌式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">		// 如果需要弹出字符串（一段话） 需要加引号</span><br><span class="line">		alert(&quot;吃了  中间可以有空格    吗？&quot;);</span><br><span class="line"></span><br><span class="line">	&lt;/script&gt;</span><br><span class="line">注意&lt;script&gt;&lt;/script&gt;放在&lt;head&gt;&lt;/head&gt;之间,放在&lt;title&gt;&lt;/title&gt;的后面</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<blockquote>
+<p>外联式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">和css的引用类似.</span><br><span class="line">&lt;script src=&quot;此处填写的是需要引用的js文件&quot;&gt;&lt;/script&gt;</span><br><span class="line">js的文件必须以js结尾.</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="confirm"><a href="#confirm" class="headerlink" title="confirm"></a>confirm</h2><blockquote>
+<p>返回的类型是布尔类型(布尔类型ture/false)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">if(confirm(&quot;吃了吗？&quot;))&#123;</span><br><span class="line"></span><br><span class="line">	  	alert(&apos;吃饱饱，睡觉觉！&apos;);</span><br><span class="line"></span><br><span class="line">	  &#125;else&#123;</span><br><span class="line"></span><br><span class="line">	  	alert(&apos;写代码，加班！&apos;);//在页面弹出一个对话框,早期的js调试使用</span><br><span class="line"></span><br><span class="line">	  &#125;</span><br><span class="line">注意:在js语法中,空格不重要,但是要注意&#123;&#125;和;</span><br><span class="line">&#123;&#125;是一条语句的开始或者结束</span><br><span class="line">;一定是一条语句的结束</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="console-log将信息输出到控制台-用于js调试"><a href="#console-log将信息输出到控制台-用于js调试" class="headerlink" title="console.log将信息输出到控制台,用于js调试"></a>console.log将信息输出到控制台,用于js调试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">console.log(&apos;今天天气不错&apos;);</span><br><span class="line">一般在调试代码的时候使用</span><br></pre></td></tr></table></figure>
+<h2 id="prompt"><a href="#prompt" class="headerlink" title="prompt"></a>prompt</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">prompt(&apos;请输入您的身高&apos;)</span><br></pre></td></tr></table></figure>
+<h2 id="document-write-“里面写内容”-这个是在页面输出消息-几乎不用-不仅能输出信息-还能输出标签"><a href="#document-write-“里面写内容”-这个是在页面输出消息-几乎不用-不仅能输出信息-还能输出标签" class="headerlink" title="document.write(“里面写内容”)这个是在页面输出消息,几乎不用,不仅能输出信息,还能输出标签."></a>document.write(“里面写内容”)这个是在页面输出消息,几乎不用,不仅能输出信息,还能输出标签.</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">document.write(&apos;今天天气\&apos;不错\&apos;！挺风和日丽的！&lt;br&gt;&apos;);</span><br><span class="line">document.write(&quot;我们下午没有课，这种感觉挺爽的！\r\n&quot;);</span><br><span class="line">\这个是转义字符</span><br><span class="line">\r\n这个是换行回车</span><br></pre></td></tr></table></figure>
+<h2 id="基本变量"><a href="#基本变量" class="headerlink" title="基本变量"></a>基本变量</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">	//age的名称 表示一个数值 20；</span><br><span class="line">	// 数据类型不同 20   number类型</span><br><span class="line">	// 张三 是  字符串类型  string 类型 	字符串类型需要用&quot;&quot;包括</span><br><span class="line">	var name = &quot;张三&quot;;</span><br><span class="line">	var age = 20;</span><br><span class="line">	var sex = &apos;女&apos;;</span><br><span class="line">	var say = &quot;我叫张三，我很\&apos;帅\&apos;！&quot;;</span><br><span class="line">	// 双引号可单引号 在js里 是一样的，但是 可以通过单双嵌套实现内部打印引号</span><br><span class="line">	var say2 = &apos;我叫李四，我也很&quot;帅&quot;！&apos;;</span><br><span class="line">	//如果要使用 必须使用_(shift+-)  </span><br><span class="line">	//变量的组成   字母数字下划线 而且数字不能开头</span><br><span class="line">	var _name2 = 20;</span><br><span class="line">	var NAME = &apos;李四&apos;;</span><br><span class="line">	console.log(name);</span><br><span class="line">	console.log(age);</span><br><span class="line">	console.log(sex);</span><br><span class="line">	console.log(say);</span><br><span class="line">	console.log(say2);</span><br><span class="line">	console.log(NAME);</span><br><span class="line"></span><br><span class="line">~	</span><br><span class="line">## 复杂的数据变量</span><br><span class="line"></span><br><span class="line">&gt;基本的数据变量中如果给很多人定义很多的信息</span><br><span class="line">例如:</span><br></pre></td></tr></table></figure>
+<p>var name1=’张三’;<br>var age1=32;<br>….<br>var name2=’李四’;<br>var age=23;<br>…<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;这样定义起来十分麻烦的</span><br><span class="line">### 对象类型:</span><br></pre></td></tr></table></figure></p>
+<p>var obj={<br>    name:’张三’;<br>    age:32;<br>    …<br>}<br>console.log(obj)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;复杂的数据变量还有数组类型</span><br><span class="line">### 数组类型</span><br></pre></td></tr></table></figure></p>
+<p>需求：要求统计班里所有同学的身高<br>    var h1 = 173;<br>    var h2 = 165;<br>    var….<br>    ….<br>var heightArr=[172,182,176];<br>console.log(heighArr)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&gt;这是一个定义身高的数组</span><br><span class="line">&gt;数组用于存放一类型的数据的集合.</span><br><span class="line">&gt;对象是用来存放物体的各种属性</span><br><span class="line">## typeof</span><br><span class="line">&gt;判断数据类型 typeof</span><br><span class="line">&gt;是用来帮我们判断数据类型的</span><br></pre></td></tr></table></figure></p>
+<pre><code>var name= &apos;张三&apos;;
+var age = 20;
+var sex = true;
+var desc;
+//null 一般在对象不存在的时候才出现
+var bak = null;
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof sex);
+console.log(typeof desc);
+console.log(typeof bak);
+
+var add = function(x,y){
+    if(typeof x == &apos;number&apos; &amp;&amp; typeof y == &apos;number&apos;){
+
+    return x+y;
+    }else{
+        return &apos;请输入正确类型！&apos;;
+        }
+    }
+
+    alert(add(5,5))
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">## 运算符</span><br><span class="line">&gt;比较运算符返回结果是boolean类型 &gt;  &lt;   ==    !=     &gt;=   &lt;=</span><br><span class="line">&gt; 算术运算符 +  -   *   /    %(求余数)</span><br></pre></td></tr></table></figure>
+<p>var number1 = 30;<br>        var number2 = 20;</p>
+<pre><code>console.log(number1+number2);
+console.log(number1-number2);
+console.log(number1*number2);
+console.log(number1/number2);
+console.log(number1%number2);
+// + 如果存在数字和字符串相加，结果字符串类型，而+会被认为是拼接的意思
+var number3 = &apos;50&apos;;
+var number4 = 50;
+var name = &apos;张三&apos;;
+console.log(number1 + number3);
+console.log(number1 + name);
+// - 会对数据类型进行“隐式转换”,如果存在数字和&apos;字符串类型的数字&apos;相减，结果是数字类型
+//  如果存在数字和数字类型字符串相减，结果是  NaN     not  a  number !
+console.log(number1 - number3);  // -20
+console.log(number1 - name); // NaN
+// 注意： NaN永远 ！= NaN
+console.log(NaN == NaN);
+
+console.log(number1/number3);
+console.log(number1*number3);
+console.log(number1%number3);
+console.log(&apos;==============&apos;)
+
+// 在js中 一般 字符类型的数字会被隐式转换  
+// 在比较运算符中会被直接转
+console.log(number3 == number4);
+//  === 严格等于的意思   1.先比较数据类型  2.再比较数值
+// 判断数值相等 === 最靠谱
+console.log(number3 === number4);
+
+console.log(number1/0); // Infinity
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">## 简化写法</span><br><span class="line">&gt;num=num+1;</span><br><span class="line">&gt;num ++;</span><br><span class="line">&gt;这两种写法一样的,每次只能加一</span><br><span class="line">##关键词</span><br></pre></td></tr></table></figure>
+<p>1.break 2.do 3.instanceof 4.typeof<br>5.case 6.else 7.new 8.var<br>9.catch 10.finally 11.return 12.void<br>13.continue 14.for 15.switch 16.while<br>17.debugger 18.function 19.this 20.with<br>21.default 22.if 23.throw 24.delete<br>25.in 26.try 27.abstract 28.enum<br>29.boolen 30.export 31.interface 32.static<br>33.byte 34.extends 35.long 36.super<br>37.char 38.final 39.native 40.synchronized<br>41.class 42.float 43.package 44.throws<br>45.const 46.goto 47.private 48.transient<br>49.implements 50.protected 51.volatile 52.double<br>53.import<br>~~~</p>
 
     </article>
     <!-- 前后页  -->
     <ul class="post-paginator">
         <li class="next">
             
-                <div class="nextSlogan">Next Post</div>
-                <a href= "/2018/03/29/git-github/" title= git-github >
-                    <div class="nextTitle">git-github</div>
-                </a>
-            
         </li>
         <li class="previous">
             
                 <div class="prevSlogan">Previous Post</div>
-                <a href= "/2018/03/29/hello-world/" title= Hello World >
-                    <div class="prevTitle">Hello World</div>
+                <a href= "/2018/03/29/git-github/" title= git-github >
+                    <div class="prevTitle">git-github</div>
                 </a>
             
         </li>
@@ -489,7 +541,7 @@ top:50vh;
         <div class="toc-catalog">
             <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
         </div>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#hexo-介绍"><span class="toc-number">1.</span> <span class="toc-text">hexo 介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装"><span class="toc-number">2.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#步骤"><span class="toc-number">3.</span> <span class="toc-text">步骤</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#打卡第二天"><span class="toc-number">1.</span> <span class="toc-text">打卡第二天</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#js-第一天"><span class="toc-number">2.</span> <span class="toc-text">js 第一天</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#面试会考"><span class="toc-number">2.1.</span> <span class="toc-text">面试会考</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-js一共有五种类型分别是"><span class="toc-number">2.2.</span> <span class="toc-text">1.js一共有五种类型分别是:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#js的引用方式有两种"><span class="toc-number">2.3.</span> <span class="toc-text">js的引用方式有两种</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#confirm"><span class="toc-number">2.4.</span> <span class="toc-text">confirm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#console-log将信息输出到控制台-用于js调试"><span class="toc-number">2.5.</span> <span class="toc-text">console.log将信息输出到控制台,用于js调试</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#prompt"><span class="toc-number">2.6.</span> <span class="toc-text">prompt</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#document-write-“里面写内容”-这个是在页面输出消息-几乎不用-不仅能输出信息-还能输出标签"><span class="toc-number">2.7.</span> <span class="toc-text">document.write(“里面写内容”)这个是在页面输出消息,几乎不用,不仅能输出信息,还能输出标签.</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基本变量"><span class="toc-number">2.8.</span> <span class="toc-text">基本变量</span></a></li></ol></li></ol>
     </div>
     
     <div class="back-top iconfont-archer">&#xe639;</div>
