@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
     <title>
         
-        
+        blog · null
         
     </title>
     <link rel="icon" href= /assets/yang.ico>
@@ -58,6 +58,8 @@
 </head>
 
     
+        <body class="post-body">
+    
     
 <header class="header">
 
@@ -65,27 +67,65 @@
     <div class="header-sidebar-menu">&#xe775;</div>
     <!-- post页的toggle banner  -->
     
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/" >lweapon</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">blog</a>
+            </div>
+    </div>
+    
     <a class="home-link" href=/>lweapon</a>
 </header>
     <div class="wrapper">
         <div class="site-intro">
     
     <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
             
-    <div class="site-intro-img" style="background-image: url(/)"></div>
+    <div class="site-intro-img" style="background-image: url(http://pic1.win4000.com/wallpaper/4/5978311948997.jpg)"></div>
     <div class="site-intro-placeholder"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
             
+            blog
+            <!-- 404 -->
+            
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
+            
+            <!-- 404 -->
+            
         </p>
         <!-- 文章页meta -->
+        
+            <!-- 文章页标签  -->
+            
+            <script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "1", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = "/static/api/js/share.js"];</script>
+            <div class="post-intro-meta">
+                <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                <span class="post-intro-time">2018/03/29</span>
+                <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                    <span class="iconfont-archer">&#xe604;</span>
+                    <span id="busuanzi_value_page_pv"></span>
+                </span>
+                <span class="shareWrapper">
+                    <span class="iconfont-archer shareIcon">
+                        &#xe601;
+                    </span>
+                    <span class="bdsharebuttonbox">
+                        <a href="#" class="bds_more shareText" data-cmd="more">Share</a>
+                    </span>
+                </span>
+            </div>
         
     </div>
 </div>
@@ -153,216 +193,62 @@
             }
         </script>
         <div class="container container-unloaded">
-            <main class="main index-page">
-    
-    
-    
-        <article class="index-post">
-            <a class="abstract-title" href = "/2018/03/31/css/css基础/" >
-                
-                    <span>css基础</span>
-            </a>
-            <a class="content-show-full" href = "/2018/03/31/css/css基础/" >
-                <div class="abstract-content">
-                    css外部引用css样式12&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; &gt;href 指的是css的路径
-div
-div标签是给网页布局使用，本身不具有任何任何样式跟span类似，但div会换行 span会换行。
+            <main class="main post-page">
+    <article class="article-entry">
+        <h2 id="hexo-介绍"><a href="#hexo-介绍" class="headerlink" title="hexo 介绍"></a>hexo 介绍</h2><blockquote>
+<p>简单的快速的markdown博客框架，能够通过markdown语法快速生成页面</p>
+</blockquote>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ul>
+<li>前提： node.js、 git</li>
+<li>node.js  是javascript在本地的一个运行环境。</li>
+</ul>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ul>
+<li><p>安装cli</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//npm  node package  manager</span><br><span class="line">// -g </span><br><span class="line">// cli一般指可以通过命令行的库</span><br><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>hexo初始化</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">//找到文件夹  </span><br><span class="line">// 通过hexo的命令 在本地创建blog代码框架</span><br><span class="line">hexo init   &lt;filename&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>启动服务预览</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">// 可以在本地启动服务预览</span><br><span class="line">// localhost:4000</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>更换皮肤</p>
+</li>
+</ul>
 
-css
-css指的是SS 指层叠样式表 (Cascading Style Sheets)，也称级联样式表。
-
-Css和html关系
-css是以html为基础，为html穿上美丽的衣服。css文件以 **.css 为扩展名。
-
-css书写样式和书写位置
-选择器：{    属性：值;    属性...
-                </div>
-            </a>
-            <div class="abstract-post-meta">
-                <!-- tags  -->
-                
-                <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-href = 打卡第三天>打卡第三天</a>
-    
-</div>
-                
-                <!-- date  -->
-                <div class="abstract-date">
-                    <span class="abstract-calander iconfont-archer"></span><span class="abstract-time">2018/03/31</span>
-                </div>
-            </div>
-        </article>
-    
-    
-    
-        <article class="index-post">
-            <a class="abstract-title" href = "/2018/03/31/html/html基础/" >
-                
-                    <span>html基础</span>
-            </a>
-            <a class="content-show-full" href = "/2018/03/31/html/html基础/" >
-                <div class="abstract-content">
-                    前端开发sublime常用快捷键
-html：xt+tab   html结构代码
-!+tad  html
-tab 自动补全代码
-ctrl+shift+d 快速复制一行
-ctrl+shift+k 快速删除一行html标签单标签
-注释标签 ctrl+/
-换行标签 br
-水平线标签 hr文本标签
-p 标签 特点：p 标签上下自动生成空白行。
-br 换行不会自动生成空白行。标题标签
-h1-h6 取值到h6
-h1 在一个页面中只出现一次图片标签12345&lt;img src=&quot;&quot; alt=&quot;&quot;&gt;src 图片路径alt 资源不存在的时候给提示title ...
-                </div>
-            </a>
-            <div class="abstract-post-meta">
-                <!-- tags  -->
-                
-                <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-href = 打卡第三天>打卡第三天</a>
-    
-</div>
-                
-                <!-- date  -->
-                <div class="abstract-date">
-                    <span class="abstract-calander iconfont-archer"></span><span class="abstract-time">2018/03/31</span>
-                </div>
-            </div>
-        </article>
-    
-    
-    
-        <article class="index-post">
-            <a class="abstract-title" href = "/2018/03/30/first-js/" >
-                
-                    <span>first-js</span>
-            </a>
-            <a class="content-show-full" href = "/2018/03/30/first-js/" >
-                <div class="abstract-content">
-                    打卡第二天js 第一天面试会考
-请说出js的基本类型有哪些?
-
-1.js一共有五种类型分别是:123456number类型string类型Boolean类型undefined类型null类型js是弱类型任何情况只需要采用var表示即可!
-js的引用方式有两种
-内嵌式123456&lt;script type=&quot;text/javascript&quot;&gt;		// 如果需要弹出字符串（一段话） 需要加引号		alert(&quot;吃了  中间可以有空格    吗？&quot;);	&lt;/script&gt;注意&lt;script&gt;&lt;/script&gt;...
-                </div>
-            </a>
-            <div class="abstract-post-meta">
-                <!-- tags  -->
-                
-                <!-- date  -->
-                <div class="abstract-date">
-                    <span class="abstract-calander iconfont-archer"></span><span class="abstract-time">2018/03/30</span>
-                </div>
-            </div>
-        </article>
-    
-    
-    
-        <article class="index-post">
-            <a class="abstract-title" href = "/2018/03/29/blog/git-github/" >
-                
+    </article>
+    <!-- 前后页  -->
+    <ul class="post-pager">
+        
+            <li class="next">
+                <a href= "/2018/03/29/blog/git-github/" title= git-github >
+                    <span>Next Post</span>
                     <span>git-github</span>
-            </a>
-            <a class="content-show-full" href = "/2018/03/29/blog/git-github/" >
-                <div class="abstract-content">
-                    打卡第一天gitgit安装
-测试安装成功
-1234cmd  打开黑窗口//如果出现版本信息 则安装成功git  --version
-
-配置用户信息
-12345678git config  --global user.name 'zhangsan'git config  --global  user.email 'xxx@163.com'//查看  直接输入git config  --global user.name
-
-
-基本操作
-git  init  初始化仓库
-git status  查看当前仓库文件状态
-
-如果存在红色标记 说明有文件没有被暂存或者提交
-
-
-git  add  xx....
-                </div>
-            </a>
-            <div class="abstract-post-meta">
-                <!-- tags  -->
-                
-                <!-- date  -->
-                <div class="abstract-date">
-                    <span class="abstract-calander iconfont-archer"></span><span class="abstract-time">2018/03/29</span>
-                </div>
-            </div>
-        </article>
-    
-    
-    
-        <article class="index-post">
-            <a class="abstract-title" href = "/2018/03/29/blog/blog/" >
-                
-                    <span>blog</span>
-            </a>
-            <a class="content-show-full" href = "/2018/03/29/blog/blog/" >
-                <div class="abstract-content">
-                    hexo 介绍
-简单的快速的markdown博客框架，能够通过markdown语法快速生成页面
-
-安装
-前提： node.js、 git
-node.js  是javascript在本地的一个运行环境。
-
-步骤
-安装cli
-1234//npm  node package  manager// -g // cli一般指可以通过命令行的库npm install -g hexo-cli
-
-hexo初始化
-1234//找到文件夹  // 通过hexo的命令 在本地创建blog代码框架hexo init   &lt;filename&gt;
-
-启动服务预览
-1234// 可以在本地启动服务预览// ...
-                </div>
-            </a>
-            <div class="abstract-post-meta">
-                <!-- tags  -->
-                
-                <!-- date  -->
-                <div class="abstract-date">
-                    <span class="abstract-calander iconfont-archer"></span><span class="abstract-time">2018/03/29</span>
-                </div>
-            </div>
-        </article>
-    
-    
-    
-        <article class="index-post">
-            <a class="abstract-title" href = "/2018/03/29/blog/hello-world/" >
-                
+                </a>
+            </li>
+        
+        
+            <li class="previous">
+                <a href= "/2018/03/29/blog/hello-world/" title= Hello World >
+                    <span>Previous Post</span>
                     <span>Hello World</span>
-            </a>
-            <a class="content-show-full" href = "/2018/03/29/blog/hello-world/" >
-                <div class="abstract-content">
-                    Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new "My New Post"
-More info: Writing
-Run server1$ hexo server
-More...
-                </div>
-            </a>
-            <div class="abstract-post-meta">
-                <!-- tags  -->
-                
-                <!-- date  -->
-                <div class="abstract-date">
-                    <span class="abstract-calander iconfont-archer"></span><span class="abstract-time">2018/03/29</span>
-                </div>
-            </div>
-        </article>
+                </a>
+            </li>
+        
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
     
-    <!-- paginator  -->
     
+    <!--PC版-->
+
+    <!--PC版-->
+
+
+    
+    <!-- 评论 -->
 </main>
             <!-- profile -->
             
@@ -410,6 +296,13 @@ More...
 </footer>
     </div>
     <!-- toc -->
+    
+    <div class="toc-wrapper">
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#hexo-介绍"><span class="toc-number">1.</span> <span class="toc-text">hexo 介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装"><span class="toc-number">2.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#步骤"><span class="toc-number">3.</span> <span class="toc-text">步骤</span></a></li></ol>
+    </div>
     
     <div class="back-top">&#xe639;</div>
     <div class="sidebar">
